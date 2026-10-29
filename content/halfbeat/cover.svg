@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160d2e"/>
+      <stop offset="1" stop-color="#3a1c6d"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 120) scale(430)">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 690) scale(380)">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="920" cy="120" r="430" fill="url(#g1)"/>
+  <circle cx="210" cy="690" r="380" fill="url(#g2)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <circle cx="600" cy="375" r="268" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+    <circle cx="600" cy="375" r="200" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    <rect x="409" y="343" width="22" height="64" rx="11" fill="url(#mark)" opacity="0.54"/>
+    <rect x="445" y="309" width="22" height="132" rx="11" fill="url(#mark)" opacity="0.66"/>
+    <rect x="481" y="271" width="22" height="208" rx="11" fill="url(#mark)" opacity="0.80"/>
+    <rect x="517" y="323" width="22" height="104" rx="11" fill="url(#mark)" opacity="0.61"/>
+    <rect x="553" y="241" width="22" height="268" rx="11" fill="url(#mark)" opacity="0.91"/>
+    <rect x="589" y="295" width="22" height="160" rx="11" fill="url(#mark)" opacity="0.71"/>
+    <rect x="625" y="215" width="22" height="320" rx="11" fill="url(#mark)" opacity="1.00"/>
+    <rect x="661" y="283" width="22" height="184" rx="11" fill="url(#mark)" opacity="0.75"/>
+    <rect x="697" y="253" width="22" height="244" rx="11" fill="url(#mark)" opacity="0.86"/>
+    <rect x="733" y="315" width="22" height="120" rx="11" fill="url(#mark)" opacity="0.64"/>
+    <rect x="769" y="333" width="22" height="84" rx="11" fill="url(#mark)" opacity="0.57"/>
+</svg>

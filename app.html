@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>应用详情 · 创意工坊</title>
+  <meta name="description" content="创意工坊应用详情">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23ff7a45'/%3E%3Crect x='11' y='11' width='10' height='10' rx='2' transform='rotate(45 16 16)' fill='%2316100b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="9" fill="#ff7a45"/>
+          <rect x="11" y="11" width="10" height="10" rx="2" transform="rotate(45 16 16)" fill="#16100b"/>
+        </svg>
+        <span>创意工坊</span>
+      </a>
+      <nav class="site-nav">
+        <a href="https://github.com/longrain63-idea-workshop" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="wrap app-detail" id="app-page" hidden>
+      <div class="detail-hero">
+        <div class="detail-info">
+          <a class="back" href="index.html">← 返回全部应用</a>
+          <h1 id="app-name"></h1>
+          <p class="tagline" id="app-tagline"></p>
+          <div class="meta-row" id="app-meta"></div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#downloads">下载 / 获取</a>
+          </div>
+        </div>
+        <div class="detail-cover">
+          <img id="app-cover" alt="">
+        </div>
+      </div>
+
+      <nav class="toc" aria-label="页面目录">
+        <a href="#intro">简介</a>
+        <a href="#previews">效果预览</a>
+        <a href="#manual">使用手册</a>
+        <a href="#downloads">下载</a>
+      </nav>
+
+      <section class="block" id="intro">
+        <h2>简介</h2>
+        <div class="prose" id="app-intro"></div>
+      </section>
+
+      <section class="block" id="previews">
+        <h2>效果预览</h2>
+        <div class="gallery" id="app-previews"></div>
+      </section>
+
+      <section class="block" id="manual">
+        <h2>使用手册</h2>
+        <div class="prose" id="app-manual"></div>
+      </section>
+
+      <section class="block" id="downloads">
+        <h2>下载</h2>
+        <div class="download-grid">
+          <div class="panel" id="panel-direct">
+            <div class="panel-head">
+              <h3>直接下载</h3>
+              <span class="panel-hint">小文件，点击即下</span>
+            </div>
+            <ul class="dl-list" id="app-downloads"></ul>
+          </div>
+          <div class="panel" id="panel-netdisk">
+            <div class="panel-head">
+              <h3>网盘下载</h3>
+              <span class="panel-hint">大文件推荐</span>
+            </div>
+            <ul class="dl-list" id="app-netdisks"></ul>
+          </div>
+        </div>
+        <p class="note">链接失效或使用中遇到问题，欢迎到 GitHub 提 issue。</p>
+      </section>
+    </article>
+
+    <div class="wrap state" id="notfound" hidden>
+      <h2>没有找到这个应用</h2>
+      <p>链接可能已经失效，<a href="index.html">返回全部应用</a>。</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 创意工坊</span>
+      <a href="https://github.com/longrain63-idea-workshop" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-btn lb-close" id="lb-close" type="button" aria-label="关闭">×</button>
+    <button class="lb-btn lb-prev" id="lb-prev" type="button" aria-label="上一张">‹</button>
+    <img id="lb-img" alt="">
+    <button class="lb-btn lb-next" id="lb-next" type="button" aria-label="下一张">›</button>
+  </div>
+
+  <script src="assets/vendor/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

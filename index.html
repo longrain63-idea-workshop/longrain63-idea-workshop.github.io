@@ -1,7 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head><meta charset="utf-8"><title>My Site</title></head>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>创意工坊 · 小应用与工具</title>
+  <meta name="description" content="创意工坊：一些小应用、小工具的发布页，附使用手册和下载。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23ff7a45'/%3E%3Crect x='11' y='11' width='10' height='10' rx='2' transform='rotate(45 16 16)' fill='%2316100b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-  <h1>Hello World!</h1>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="9" fill="#ff7a45"/>
+          <rect x="11" y="11" width="10" height="10" rx="2" transform="rotate(45 16 16)" fill="#16100b"/>
+        </svg>
+        <span>创意工坊</span>
+      </a>
+      <nav class="site-nav">
+        <a href="https://github.com/longrain63-idea-workshop" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <h1>创意工坊<span class="dot">.</span></h1>
+      <p>平时写的一些小应用和工具，都放在这里。点开卡片看详情、使用手册和下载地址。</p>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <h2>全部应用</h2>
+        <span class="count" id="app-count"></span>
+      </div>
+      <div class="app-grid" id="app-grid"></div>
+      <div class="state" id="state" hidden></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 创意工坊</span>
+      <a href="https://github.com/longrain63-idea-workshop" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="wrap state">这个页面需要开启 JavaScript 才能加载应用列表。</div>
+  </noscript>
+
+  <script src="assets/js/home.js"></script>
 </body>
 </html>
