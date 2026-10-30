@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <radialGradient id="wglow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 500) scale(820)">
+      <stop offset="0" stop-color="#FFB020" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#FFB020" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0a0c10"/>
+  <rect width="1600" height="1000" fill="url(#wglow)"/>
+  <rect x="100" y="80" width="1400" height="840" rx="20" fill="#11151b" stroke="#ffffff" stroke-opacity=".08"/>
+  <rect x="100" y="80" width="1400" height="54" rx="20" fill="#161b22"/>
+  <rect x="100" y="106" width="1400" height="28" fill="#161b22"/>
+  <circle cx="132" cy="107" r="6" fill="#ff5f57" opacity=".75"/>
+  <circle cx="154" cy="107" r="6" fill="#febc2e" opacity=".75"/>
+  <circle cx="176" cy="107" r="6" fill="#28c840" opacity=".75"/>
+  <text x="800" y="113" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle" letter-spacing="2">nothing 文件检索</text>
+  
+      <rect x="124" y="158" width="1352" height="50" rx="10" fill="#0b0f15" stroke="#2f3a46"/>
+      <circle cx="156" cy="183" r="7" fill="none" stroke="#5c6773" stroke-width="2"/>
+      <line x1="161" y1="188" x2="168" y2="195" stroke="#5c6773" stroke-width="2" stroke-linecap="round"/>
+      <text x="186" y="190" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="20" fill="#e6ecf3" >!!(四川|pdf) size:&gt;100kb</text>
+      <rect x="130" y="228" width="100" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="130" y="228" width="100" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="141" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >空格 = 与</text><rect x="240" y="228" width="87" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="240" y="228" width="87" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="251" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >| = 或</text><rect x="337" y="228" width="100" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="337" y="228" width="100" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="348" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >! = 排除</text><rect x="447" y="228" width="113" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="447" y="228" width="113" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="458" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >ext:pdf</text><rect x="570" y="228" width="165" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="570" y="228" width="165" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="581" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >size:>100kb</text><rect x="745" y="228" width="87" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="745" y="228" width="87" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="756" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >path:</text><rect x="842" y="228" width="139" height="30" rx="15" fill="#ffffff" opacity=".04"/><rect x="842" y="228" width="139" height="30" rx="15" fill="none" stroke="#ffffff" stroke-opacity=".08"/><text x="853" y="249" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" >type:file</text>
+      <text x="150" y="300" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#78838f" >名称</text>
+      <text x="480" y="300" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#78838f" >路径</text>
+      <text x="1140" y="300" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#78838f" text-anchor="end">大小</text>
+      <text x="1300" y="300" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#78838f" >修改时间</text>
+      <line x1="124" y1="316" x2="1476" y2="316" stroke="#ffffff" stroke-opacity=".07"/>
+      <g>
+        <rect x="100" y="306" width="1400" height="68" fill="#ffffff" opacity=".018"/>
+        <rect x="150" y="324" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="324" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="342" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >四川CA数字证书安装说明.pdf</text>
+        <text x="480" y="342" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\文档\四川CA\</text>
+        <text x="1140" y="342" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">2.8 MB</text>
+        <text x="1300" y="342" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-10-21 10:14</text>
+      </g><g>
+        
+        <rect x="150" y="392" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="392" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="410" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >北京项目报价单_终版.pdf</text>
+        <text x="480" y="410" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\工作\2026\</text>
+        <text x="1140" y="410" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">1.4 MB</text>
+        <text x="1300" y="410" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-10-19 16:02</text>
+      </g><g>
+        <rect x="100" y="442" width="1400" height="68" fill="#ffffff" opacity=".018"/>
+        <rect x="150" y="460" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="460" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="478" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >四川-重庆 线路勘测.pdf</text>
+        <text x="480" y="478" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\资料\勘测\</text>
+        <text x="1140" y="478" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">9.6 MB</text>
+        <text x="1300" y="478" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-10-11 09:47</text>
+      </g><g>
+        
+        <rect x="150" y="528" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="528" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="546" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >北京办事处合同扫描.pdf</text>
+        <text x="480" y="546" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\合同\2026\</text>
+        <text x="1140" y="546" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">14.3 MB</text>
+        <text x="1300" y="546" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-10-08 14:25</text>
+      </g><g>
+        <rect x="100" y="578" width="1400" height="68" fill="#ffffff" opacity=".018"/>
+        <rect x="150" y="596" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="596" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="614" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >四川CA驱动更新日志.pdf</text>
+        <text x="480" y="614" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\文档\四川CA\</text>
+        <text x="1140" y="614" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">512 KB</text>
+        <text x="1300" y="614" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-09-30 11:36</text>
+      </g><g>
+        
+        <rect x="150" y="664" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="664" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="682" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >北京培训签到表.pdf</text>
+        <text x="480" y="682" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\培训\</text>
+        <text x="1140" y="682" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">3.1 MB</text>
+        <text x="1300" y="682" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-09-25 08:58</text>
+      </g><g>
+        <rect x="100" y="714" width="1400" height="68" fill="#ffffff" opacity=".018"/>
+        <rect x="150" y="732" width="24" height="22" rx="5" fill="#ffb020" opacity=".16"/>
+        <rect x="150" y="732" width="4" height="22" rx="2" fill="#ffb020" opacity=".75"/>
+        <text x="188" y="750" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" fill="#d6dee7" >川渝通行费清单.pdf</text>
+        <text x="480" y="750" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >S:\softCache\报销\2026-09\</text>
+        <text x="1140" y="750" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#9aa6b2" text-anchor="end">1.9 MB</text>
+        <text x="1300" y="750" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#77838f" >2026-09-18 19:10</text>
+      </g>
+      <rect x="100" y="878" width="1400" height="42" fill="#0d1117"/>
+      <text x="130" y="905" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#6b7682" >143,257 条记录 · 增量监视 2 卷 · 定时重扫 30 分钟</text>
+      <text x="1470" y="905" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#8b97a3" text-anchor="end">查询 12 ms</text>
+      <rect x="100" y="878" width="1400" height="1" fill="#ffffff" opacity=".06"/>
+</svg>

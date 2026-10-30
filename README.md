@@ -1,6 +1,6 @@
 # 创意工坊
 
-一些小应用和小工具的发布页，纯静态，托管在 GitHub Pages：
+小应用和小工具的发布页，纯静态，托管在 GitHub Pages：
 
 <https://longrain63-idea-workshop.github.io/>
 
@@ -12,13 +12,15 @@
 | `app.html` | 详情页模板，通过 `app.html?app=<slug>` 访问 |
 | `data/apps.json` | 应用清单，全站唯一内容源 |
 | `content/<slug>/` | 单个应用的封面、预览图、简介与使用手册（Markdown） |
+| `downloads/<slug>/` | 安装包与绿色版，直接由站点提供下载 |
 | `assets/css`、`assets/js` | 样式与脚本 |
 | `assets/vendor/marked.min.js` | 本地内置的 Markdown 渲染器，不依赖 CDN |
 
 ## 新增一个应用
 
 1. 新建 `content/<slug>/`，放入 `cover.svg`（或 `.webp`）、预览图 `01.svg`、`02.svg`……、`intro.md`、`manual.md`
-2. 在 `data/apps.json` 里追加一条记录：
+2. 把安装包放进 `downloads/<slug>/`
+3. 在 `data/apps.json` 里追加一条记录：
 
 ```json
 {
@@ -26,14 +28,14 @@
   "name": "应用名",
   "tagline": "一句话介绍",
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "tags": ["Windows"],
   "cover": "content/my-app/cover.webp",
   "intro": "content/my-app/intro.md",
   "manual": "content/my-app/manual.md",
   "previews": ["content/my-app/01.webp"],
   "downloads": [
-    { "label": "Windows x64 安装包", "url": "https://example.com/app.exe", "size": "38 MB" }
+    { "label": "Windows x64 安装包", "url": "downloads/my-app/Setup.exe", "size": "23 MB" }
   ],
   "netdisks": [
     { "label": "百度网盘", "url": "https://pan.baidu.com/s/xxxx", "code": "abcd" }
@@ -41,16 +43,15 @@
 }
 ```
 
-3. 提交并推送，GitHub Pages 自动更新。
+4. 提交并推送，GitHub Pages 自动更新。
 
-`previews`、`downloads`、`netdisks` 可以省略或留空数组，页面会自动隐藏对应区块；`intro`、`manual` 也一样。
+`previews`、`downloads`、`netdisks` 可以省略或留空数组，页面会自动隐藏对应区块；`intro`、`manual` 也一样。只剩一个下载面板时，页面会自动铺满整行。
 
-## 大文件放哪
+## 安装包放哪
 
-安装包不进仓库（GitHub 单文件上限 100MB，仓库过大也会触发警告）：
+目前安装包直接放在 `downloads/<slug>/`，由 Pages 提供**直接下载**。现在六个包合计约 117 MB，仓库和站点都远低于 GitHub 的上限（单文件 100 MB、仓库建议 1 GB、Pages 站点 1 GB）。
 
-- **直接下载**：把文件传到 GitHub Releases 的附件，`downloads[].url` 填附件的下载地址
-- **大文件 / 国内下载慢**：放网盘，填在 `netdisks`，附带提取码
+如果以后包体总量接近上限，把大包迁到 GitHub Releases（附件单文件可到 2 GB），只把 `downloads[].url` 换成附件地址即可，页面不用改。国内下载慢的包可以另外挂网盘，填在 `netdisks`。
 
 ## 本地预览
 
@@ -61,6 +62,10 @@ python -m http.server 8000
 # 打开 http://localhost:8000
 ```
 
-## 当前内容说明
+## 当前内容
 
-`data/apps.json` 里的 HalfBeat、PDF 拆分合并、桌面便签目前是占位示例：封面和预览图是脚本生成的抽象示意图，下载与网盘链接是假地址，换成真实内容即可。
+- **nothing 文件检索** 0.9.11
+- **半拍 HalfBeat** 0.2.0
+- **诗词桌面壁纸** 0.2.0
+
+封面与效果预览目前是按各应用视觉风格生成的示意图，不是真实截图；拿到运行截图后替换 `content/<slug>/cover.svg` 与 `01.svg`、`02.svg` 即可。简介与手册内容取自各项目 README。

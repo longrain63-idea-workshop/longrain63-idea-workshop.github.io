@@ -174,6 +174,8 @@
 
     if (!downloads.length && !netdisks.length) {
       $('#downloads').hidden = true;
+    } else if ($('#panel-direct').hidden !== $('#panel-netdisk').hidden) {
+      $('.download-grid').classList.add('single');
     }
   }
 

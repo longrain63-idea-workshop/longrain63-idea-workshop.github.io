@@ -629,6 +629,10 @@ main {
   gap: 18px;
 }
 
+.download-grid.single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .panel {
   padding: 6px 20px 2px;
   border: 1px solid var(--border);
