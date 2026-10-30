@@ -22,5 +22,29 @@
         "size": "22.3 MB"
       }
     ]
+  },
+  {
+    "slug": "halfbeat",
+    "name": "半拍 HalfBeat",
+    "tagline": "本地曲库加在线音源，轻量的桌面音乐播放器。",
+    "version": "0.2.0",
+    "updated": "2026-10-29",
+    "tags": ["Windows", "音乐", "播放器"],
+    "cover": "content/halfbeat/cover.svg",
+    "intro": "content/halfbeat/intro.md",
+    "manual": "content/halfbeat/manual.md",
+    "previews": ["content/halfbeat/01.svg", "content/halfbeat/02.svg"],
+    "downloads": [
+      {
+        "label": "Windows x64 安装包",
+        "url": "downloads/halfbeat/HalfBeat-0.2.0-installer-win64.exe",
+        "size": "12.2 MB"
+      },
+      {
+        "label": "Windows x64 绿色版",
+        "url": "downloads/halfbeat/HalfBeat-0.2.0-portable-win64.zip",
+        "size": "14.5 MB"
+      }
+    ]
   }
 ]

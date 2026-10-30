@@ -1,101 +1,110 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 500) scale(780)">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".18"/>
+    <radialGradient id="wglow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 500) scale(820)">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".16"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
-    </linearGradient>
-    <linearGradient id="card0" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.42"/>
-        <stop offset="1" stop-color="#8b5cf6" stop-opacity=".08"/>
-      </linearGradient>
-    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#22d3ee" stop-opacity="0.33999999999999997"/>
-        <stop offset="1" stop-color="#8b5cf6" stop-opacity=".08"/>
-      </linearGradient>
-    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.26"/>
-        <stop offset="1" stop-color="#22d3ee" stop-opacity=".08"/>
-      </linearGradient>
-    <clipPath id="win"><rect x="170" y="120" width="1260" height="760" rx="22"/></clipPath>
   </defs>
   <rect width="1600" height="1000" fill="#0a0c10"/>
-  <rect width="1600" height="1000" fill="url(#glow)"/>
-  <rect x="170" y="120" width="1260" height="760" rx="22" fill="#12151b" stroke="#ffffff" stroke-opacity=".08"/>
-  <g clip-path="url(#win)">
-    <rect x="170" y="120" width="1260" height="56" fill="#171b22"/>
-    <circle cx="202" cy="148" r="6" fill="#ff5f57" opacity=".75"/>
-    <circle cx="226" cy="148" r="6" fill="#febc2e" opacity=".75"/>
-    <circle cx="250" cy="148" r="6" fill="#28c840" opacity=".75"/>
-    <text x="800" y="153" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="13" letter-spacing="4" fill="#ffffff" fill-opacity=".32">HALFBEAT</text>
-    
-      <rect x="170" y="176" width="252" height="704" fill="#0e1116"/>
-      <circle cx="206" cy="218" r="14" fill="url(#mark)"/>
-      <rect x="232" y="212" width="110" height="12" rx="6" fill="#ffffff" opacity="0.3"/>
-      <rect x="206" y="268" width="150" height="10" rx="5" fill="#ffffff" opacity="0.1"/>
-      <rect x="186" y="288" width="220" height="38" rx="10" fill="#ffffff" opacity=".05"/>
-      <rect x="206" y="301" width="120" height="12" rx="6" fill="#ffffff" opacity="0.4"/>
-      <rect x="206" y="353" width="140" height="11" rx="5.5" fill="#ffffff" opacity="0.12"/>
-      <rect x="206" y="405" width="96" height="11" rx="5.5" fill="#ffffff" opacity="0.12"/>
-      <rect x="206" y="457" width="128" height="11" rx="5.5" fill="#ffffff" opacity="0.12"/>
-      <rect x="206" y="509" width="108" height="11" rx="5.5" fill="#ffffff" opacity="0.12"/>
-      <rect x="206" y="800" width="180" height="36" rx="10" fill="#ffffff" opacity=".04"/>
-    
-      <rect x="466" y="210" width="238" height="20" rx="10" fill="10" opacity="0.34"/>
-      <rect x="466" y="244" width="150" height="12" rx="6" fill="6" opacity="0.14"/>
-      <rect x="1156" y="204" width="230" height="40" rx="20" fill="#ffffff" opacity=".05"/>
-      <circle cx="1182" cy="224" r="6" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
-      <rect x="1198" y="219" width="120" height="10" rx="5" fill="#ffffff" opacity="0.12"/>
+  <rect width="1600" height="1000" fill="url(#wglow)"/>
+  <rect x="100" y="80" width="1400" height="840" rx="20" fill="#11151b" stroke="#ffffff" stroke-opacity=".08"/>
+  <rect x="100" y="80" width="1400" height="54" rx="20" fill="#161b22"/>
+  <rect x="100" y="106" width="1400" height="28" fill="#161b22"/>
+  <circle cx="132" cy="107" r="6" fill="#ff5f57" opacity=".75"/>
+  <circle cx="154" cy="107" r="6" fill="#febc2e" opacity=".75"/>
+  <circle cx="176" cy="107" r="6" fill="#28c840" opacity=".75"/>
+  <text x="800" y="113" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle" letter-spacing="2">半拍 HalfBeat</text>
+  
+      <text x="171" y="185" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#6f7a87" text-anchor="middle">播放</text><rect x="210" y="160" width="80" height="38" rx="10" fill="#8b5cf6" opacity=".22"/><rect x="210" y="160" width="80" height="38" rx="10" fill="none" stroke="#8b5cf6" stroke-opacity=".5"/><text x="250" y="185" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#ddd2ff" text-anchor="middle">均衡器</text><text x="329" y="185" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#6f7a87" text-anchor="middle">设置</text>
+      <rect x="640" y="158" width="320" height="42" rx="21" fill="#0b0e13" stroke="#2a323d"/>
+      <rect x="644" y="162" width="110" height="34" rx="17" fill="#8b5cf6" opacity=".9"/>
+      <text x="699" y="184" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#140f22" text-anchor="middle" font-weight="bold">本地</text>
+      <text x="778" y="184" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#6f7a87" text-anchor="middle">音源</text>
+      <circle cx="1448" cy="179" r="16" fill="#ffffff" opacity=".04"/>
+      <circle cx="1448" cy="179" r="5" fill="none" stroke="#6f7a87" stroke-width="2"/>
+      
+    <text x="200" y="280" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#e9e5f5" >均衡器</text>
+    <rect x="330" y="252" width="140" height="36" rx="9" fill="#0b0e13" stroke="#2a323d"/>
+    <text x="348" y="275" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#aab4bf" >流行 ▾</text>
+    <rect x="560" y="252" width="120" height="36" rx="9" fill="#ffffff" opacity=".05"/>
+    <text x="620" y="275" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#aab4bf" text-anchor="middle">存为预设</text>
+    <line x1="200" y1="495" x2="1440" y2="495" stroke="#ffffff" stroke-opacity=".08" stroke-dasharray="8 8"/>
+    <text x="178" y="500" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#4f5a66" text-anchor="end">0 dB</text>
+    <text x="178" y="336" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#4f5a66" text-anchor="end">+15</text>
+    <text x="178" y="664" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#4f5a66" text-anchor="end">-15</text>
     <g>
-        <rect x="460" y="296" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="308" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="315" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="337" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="316" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="324" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
+        <line x1="300" y1="330" x2="300" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="300" y1="495" x2="300" y2="459" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="300" cy="459" r="12" fill="#c4b5fd"/>
+        <circle cx="300" cy="459" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="300" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">31.5</text>
+        <text x="300" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+3</text>
+      </g><g>
+        <line x1="412" y1="330" x2="412" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="412" y1="495" x2="412" y2="435" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="412" cy="435" r="12" fill="#c4b5fd"/>
+        <circle cx="412" cy="435" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="412" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">62</text>
+        <text x="412" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+5</text>
+      </g><g>
+        <line x1="524" y1="330" x2="524" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="524" y1="495" x2="524" y2="447" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="524" cy="447" r="12" fill="#c4b5fd"/>
+        <circle cx="524" cy="447" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="524" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">125</text>
+        <text x="524" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+4</text>
+      </g><g>
+        <line x1="636" y1="330" x2="636" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="636" y1="495" x2="636" y2="471" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="636" cy="471" r="12" fill="#c4b5fd"/>
+        <circle cx="636" cy="471" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="636" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">250</text>
+        <text x="636" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+2</text>
+      </g><g>
+        <line x1="748" y1="330" x2="748" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="748" y1="495" x2="748" y2="495" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="748" cy="495" r="12" fill="#c4b5fd"/>
+        <circle cx="748" cy="495" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="748" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">500</text>
+        <text x="748" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">0</text>
+      </g><g>
+        <line x1="860" y1="330" x2="860" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="860" y1="495" x2="860" y2="519" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="860" cy="519" r="12" fill="#c4b5fd"/>
+        <circle cx="860" cy="519" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="860" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">1k</text>
+        <text x="860" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">-2</text>
+      </g><g>
+        <line x1="972" y1="330" x2="972" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="972" y1="495" x2="972" y2="507" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="972" cy="507" r="12" fill="#c4b5fd"/>
+        <circle cx="972" cy="507" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="972" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">2k</text>
+        <text x="972" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">-1</text>
+      </g><g>
+        <line x1="1084" y1="330" x2="1084" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="1084" y1="495" x2="1084" y2="471" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="1084" cy="471" r="12" fill="#c4b5fd"/>
+        <circle cx="1084" cy="471" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="1084" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">4k</text>
+        <text x="1084" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+2</text>
+      </g><g>
+        <line x1="1196" y1="330" x2="1196" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="1196" y1="495" x2="1196" y2="447" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="1196" cy="447" r="12" fill="#c4b5fd"/>
+        <circle cx="1196" cy="447" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="1196" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">8k</text>
+        <text x="1196" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+4</text>
+      </g><g>
+        <line x1="1308" y1="330" x2="1308" y2="660" stroke="#242b34" stroke-width="6" stroke-linecap="round"/>
+        <line x1="1308" y1="495" x2="1308" y2="423" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="1308" cy="423" r="12" fill="#c4b5fd"/>
+        <circle cx="1308" cy="423" r="12" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="1308" y="692" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8b97a3" text-anchor="middle">16k</text>
+        <text x="1308" y="316" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#6f7a87" text-anchor="middle">+6</text>
       </g>
-<g>
-        <rect x="460" y="388" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="400" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="407" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="429" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="408" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="416" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
-      </g>
-<g>
-        <rect x="460" y="480" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="492" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="499" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="521" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="500" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="508" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
-      </g>
-<g>
-        <rect x="460" y="572" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="584" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="591" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="613" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="592" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="600" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
-      </g>
-<g>
-        <rect x="460" y="664" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="676" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="683" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="705" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="684" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="692" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
-      </g>
-<g>
-        <rect x="460" y="756" width="926" height="68" rx="14" fill="#ffffff" opacity=".03"/>
-        <rect x="478" y="768" width="44" height="44" rx="12" fill="#8b5cf6" opacity=".26"/>
-        <rect x="542" y="775" width="220" height="12" rx="6" fill="#ffffff" opacity="0.26"/>
-        <rect x="542" y="797" width="140" height="9" rx="4.5" fill="4.5" opacity="0.1"/>
-        <rect x="1246" y="776" width="110" height="28" rx="14" fill="#8b5cf6" opacity=".16"/>
-        <rect x="1130" y="784" width="80" height="10" rx="5" fill="5" opacity="0.1"/>
-      </g>
-  </g>
+    <rect x="124" y="806" width="1352" height="90" rx="14" fill="#0b0e13" stroke="#242b34"/>
+    <text x="150" y="862" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#5f6a76" >均衡器只在本地模式生效</text>
+    <circle cx="800" cy="850" r="21" fill="#8b5cf6"/>
+    <path d="M793 841 L793 859 L810 850 Z" fill="#140f22"/>
 </svg>
