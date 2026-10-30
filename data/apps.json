@@ -9,7 +9,7 @@
     "cover": "content/nothing/cover.svg",
     "intro": "content/nothing/intro.md",
     "manual": "content/nothing/manual.md",
-    "previews": ["content/nothing/01.svg", "content/nothing/02.svg"],
+    "previews": ["content/nothing/01.png", "content/nothing/02.png"],
     "downloads": [
       {
         "label": "Windows x64 安装包",
