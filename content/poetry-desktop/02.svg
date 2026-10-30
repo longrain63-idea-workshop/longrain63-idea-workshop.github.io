@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241a2b"/>
+      <stop offset=".5" stop-color="#4a3448"/>
+      <stop offset="1" stop-color="#8a5f4e"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 760) scale(560)">
+      <stop offset="0" stop-color="#f0a978" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f0a978" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette2" cx=".5" cy=".5" r=".78">
+      <stop offset=".5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".5"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky2)"/>
+  <circle cx="800" cy="740" r="560" fill="url(#sunset)"/>
+  <path d="M0 700 C 240 640 420 700 620 665 C 820 630 980 690 1180 650 C 1340 618 1480 660 1600 635 V1000 H0 Z" fill="#2b1f2c" opacity=".9"/>
+  <path d="M0 820 C 260 780 520 830 800 795 C 1080 760 1340 820 1600 785 V1000 H0 Z" fill="#1a1420"/>
+  <g>
+      <rect x="280" y="190" width="470" height="600" rx="14" fill="#0b0d14" opacity=".32"/>
+      <rect x="280" y="190" width="470" height="600" rx="14" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+      <rect x="445" y="222" width="140" height="34" rx="17" fill="#ffffff" opacity=".07"/>
+      <text x="515" y="245" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#cbbfa8" text-anchor="middle">赠·酬</text>
+      <text x="515" y="320" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" fill="#f1e8d6" text-anchor="middle">雷神短歌</text>
+      <line x1="455" y1="348" x2="575" y2="348" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="515" y="424" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">隐约雷鸣</text><text x="515" y="482" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">阴霾天空</text><text x="515" y="540" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">但盼风雨来</text><text x="515" y="598" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">能留你在此</text>
+      <text x="515" y="712" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#a89a86" text-anchor="middle">柿本人麻吕</text>
+    </g>
+  <g>
+      <rect x="850" y="190" width="470" height="600" rx="14" fill="#0b0d14" opacity=".32"/>
+      <rect x="850" y="190" width="470" height="600" rx="14" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+      <rect x="1015" y="222" width="140" height="34" rx="17" fill="#ffffff" opacity=".07"/>
+      <text x="1085" y="245" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#cbbfa8" text-anchor="middle">答</text>
+      <text x="1085" y="320" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" fill="#f1e8d6" text-anchor="middle">和风答章</text>
+      <line x1="1025" y1="348" x2="1145" y2="348" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="1085" y="424" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">隐约雷鸣</text><text x="1085" y="482" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">阴霾天空</text><text x="1085" y="540" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">即使天无雨</text><text x="1085" y="598" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" fill="#ded3bf" text-anchor="middle">我亦留此地</text>
+      <text x="1085" y="712" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#a89a86" text-anchor="middle">大伴家持</text>
+    </g>
+  <text x="800" y="880" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#c9bba8" text-anchor="middle" letter-spacing="2">雷神短歌 / 和风答章</text>
+  <rect width="1600" height="1000" fill="url(#vignette2)"/>
+</svg>

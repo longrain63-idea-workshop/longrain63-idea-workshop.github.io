@@ -46,5 +46,29 @@
         "size": "14.5 MB"
       }
     ]
+  },
+  {
+    "slug": "poetry-desktop",
+    "name": "诗词桌面壁纸",
+    "tagline": "把本地图片和诗词组合成壁纸，一键设为桌面。",
+    "version": "0.2.0",
+    "updated": "2026-10-30",
+    "tags": ["Windows", "壁纸", "古诗词"],
+    "cover": "content/poetry-desktop/cover.svg",
+    "intro": "content/poetry-desktop/intro.md",
+    "manual": "content/poetry-desktop/manual.md",
+    "previews": ["content/poetry-desktop/01.svg", "content/poetry-desktop/02.svg"],
+    "downloads": [
+      {
+        "label": "Windows x64 安装包",
+        "url": "downloads/poetry-desktop/poetry_desktop-0.2.0-windows-x64-setup.exe",
+        "size": "17.4 MB"
+      },
+      {
+        "label": "Windows x64 绿色版",
+        "url": "downloads/poetry-desktop/poetry_desktop-0.2.0-windows-x64.zip",
+        "size": "23.3 MB"
+      }
+    ]
   }
 ]

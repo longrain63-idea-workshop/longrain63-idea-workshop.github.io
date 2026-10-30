@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#25355c"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 110) scale(440)">
+      <stop offset="0" stop-color="#c8b98f" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#c8b98f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 700) scale(400)">
+      <stop offset="0" stop-color="#6f8cc9" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#6f8cc9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f8cc9"/>
+      <stop offset="1" stop-color="#c8b98f"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="930" cy="110" r="440" fill="url(#g1)"/>
+  <circle cx="190" cy="700" r="400" fill="url(#g2)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <g>
+      <circle cx="925" cy="165" r="150" fill="url(#moonGlow)"/>
+      <circle cx="120" cy="90" r="2" fill="#ffffff" opacity=".35"/><circle cx="220" cy="150" r="1.4" fill="#ffffff" opacity=".35"/><circle cx="340" cy="80" r="1.8" fill="#ffffff" opacity=".35"/><circle cx="430" cy="170" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="520" cy="100" r="1.6" fill="#ffffff" opacity=".35"/><circle cx="660" cy="60" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="760" cy="150" r="1.8" fill="#ffffff" opacity=".35"/><circle cx="980" cy="90" r="1.4" fill="#ffffff" opacity=".35"/><circle cx="1080" cy="180" r="1.6" fill="#ffffff" opacity=".35"/><circle cx="200" cy="260" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="1000" cy="260" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="1120" cy="70" r="1.8" fill="#ffffff" opacity=".35"/><circle cx="600" cy="210" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="300" cy="320" r="1.2" fill="#ffffff" opacity=".35"/><circle cx="880" cy="250" r="1.4" fill="#ffffff" opacity=".35"/>
+      <circle cx="925" cy="165" r="74" fill="#f6e9c6"/>
+      <circle cx="902" cy="146" r="12" fill="#e8dab5" opacity=".7"/>
+      <circle cx="948" cy="190" r="18" fill="#e8dab5" opacity=".5"/>
+      <circle cx="950" cy="140" r="8" fill="#e8dab5" opacity=".6"/>
+      
+    <path d="M0 520 C 140 470 260 500 380 470 C 500 440 560 480 700 455 C 820 432 940 470 1060 445 C 1130 432 1170 440 1200 430 V750 H0 Z" fill="#141f3d" opacity=".85"/>
+    <path d="M0 590 C 180 540 300 585 420 560 C 540 535 640 580 780 555 C 920 530 1040 575 1200 545 V750 H0 Z" fill="#0d1730"/>
+    <path d="M0 668 C 220 640 380 690 560 665 C 740 640 960 690 1200 650 V750 H0 Z" fill="#070d1c"/>
+      <rect y="640" width="1200" height="110" fill="url(#mist)"/>
+    </g>
+    <defs>
+      <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(925 165) scale(170)">
+        <stop offset="0" stop-color="#f6e9c6" stop-opacity=".34"/>
+        <stop offset="1" stop-color="#f6e9c6" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0a1020" stop-opacity="0"/>
+        <stop offset="1" stop-color="#0a1020" stop-opacity=".55"/>
+      </linearGradient>
+    </defs>
+</svg>
