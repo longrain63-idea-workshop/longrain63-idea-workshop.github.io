@@ -68,4 +68,4 @@ python -m http.server 8000
 - **半拍 HalfBeat** 0.2.0
 - **诗词桌面壁纸** 0.2.0
 
-封面是按各应用视觉风格生成的示意图（nothing 的封面按软件实际图标绘制）；HalfBeat 与 nothing 的效果预览已换成真实截图，诗词壁纸的预览暂为界面示意图，拿到运行截图后替换 `content/<slug>/01.*`、`02.*` 即可（替换后同步更新 `data/apps.json` 里的 `previews` 路径）。
+三个应用的效果预览都已换成真实运行截图（截图较大的用 WebP 存放）；封面是按各应用视觉风格生成的示意图，nothing 的封面按软件实际图标绘制。以后换图直接替换 `content/<slug>/01.*`、`02.*`，并同步更新 `data/apps.json` 里的 `previews` 路径。

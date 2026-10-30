@@ -57,7 +57,7 @@
     "cover": "content/poetry-desktop/cover.svg",
     "intro": "content/poetry-desktop/intro.md",
     "manual": "content/poetry-desktop/manual.md",
-    "previews": ["content/poetry-desktop/01.svg", "content/poetry-desktop/02.svg"],
+    "previews": ["content/poetry-desktop/01.webp", "content/poetry-desktop/02.webp"],
     "downloads": [
       {
         "label": "Windows x64 安装包",
