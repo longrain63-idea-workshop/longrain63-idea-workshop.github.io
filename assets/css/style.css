@@ -124,18 +124,6 @@ main {
   flex: 0 0 auto;
 }
 
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.site-nav a:hover {
-  color: var(--text);
-}
-
 /* ========== 首页 ========== */
 .hero {
   padding: 84px 0 52px;
@@ -730,12 +718,6 @@ main {
 .copy-btn.copied {
   color: #7ee2b8;
   border-color: rgba(126, 226, 184, 0.4);
-}
-
-.note {
-  margin: 18px 0 0;
-  font-size: 13px;
-  color: var(--faint);
 }
 
 /* 空状态 / 错误 */
