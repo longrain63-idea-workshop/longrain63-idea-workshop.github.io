@@ -754,10 +754,6 @@ main {
   gap: 16px;
 }
 
-.footer-inner a:hover {
-  color: var(--text);
-}
-
 /* ========== 图片查看器 ========== */
 .lightbox {
   position: fixed;
