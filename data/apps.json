@@ -33,7 +33,7 @@
     "cover": "content/halfbeat/cover.svg",
     "intro": "content/halfbeat/intro.md",
     "manual": "content/halfbeat/manual.md",
-    "previews": ["content/halfbeat/01.svg", "content/halfbeat/02.svg"],
+    "previews": ["content/halfbeat/01.png", "content/halfbeat/02.png"],
     "downloads": [
       {
         "label": "Windows x64 安装包",
