@@ -48,6 +48,26 @@
     ]
   },
   {
+    "slug": "halfbeat-android",
+    "name": "半拍 HalfBeat 移动版",
+    "tagline": "装进手机的那半拍：在线音源、收藏与后台播放。",
+    "version": "0.2.0",
+    "updated": "2026-10-31",
+    "tags": ["Android", "音乐", "播放器"],
+    "cover": "content/halfbeat-android/cover.webp",
+    "intro": "content/halfbeat-android/intro.md",
+    "manual": "content/halfbeat-android/manual.md",
+    "previews": ["content/halfbeat-android/01.webp"],
+    "previewLayout": "portrait",
+    "downloads": [
+      {
+        "label": "Android arm64 安装包（APK）",
+        "url": "downloads/halfbeat-android/HalfBeat-0.2.0-arm64.apk",
+        "size": "16.4 MB"
+      }
+    ]
+  },
+  {
     "slug": "poetry-desktop",
     "name": "诗词桌面壁纸",
     "tagline": "把本地图片和诗词组合成壁纸，一键设为桌面。",

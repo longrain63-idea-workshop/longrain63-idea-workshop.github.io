@@ -45,11 +45,11 @@
 
 4. 提交并推送，GitHub Pages 自动更新。
 
-`previews`、`downloads`、`netdisks` 可以省略或留空数组，页面会自动隐藏对应区块；`intro`、`manual` 也一样。只剩一个下载面板时，页面会自动铺满整行。
+`previews`、`downloads`、`netdisks` 可以省略或留空数组，页面会自动隐藏对应区块；`intro`、`manual` 也一样。只剩一个下载面板时，页面会自动铺满整行。竖屏截图（手机应用）在记录里加 `"previewLayout": "portrait"`，预览区会按手机比例居中显示。
 
 ## 安装包放哪
 
-目前安装包直接放在 `downloads/<slug>/`，由 Pages 提供**直接下载**。现在六个包合计约 117 MB，仓库和站点都远低于 GitHub 的上限（单文件 100 MB、仓库建议 1 GB、Pages 站点 1 GB）。
+目前安装包直接放在 `downloads/<slug>/`，由 Pages 提供**直接下载**。现在七个包合计约 133 MB，仓库和站点都远低于 GitHub 的上限（单文件 100 MB、仓库建议 1 GB、Pages 站点 1 GB）。
 
 如果以后包体总量接近上限，把大包迁到 GitHub Releases（附件单文件可到 2 GB），只把 `downloads[].url` 换成附件地址即可，页面不用改。国内下载慢的包可以另外挂网盘，填在 `netdisks`。
 
@@ -66,6 +66,7 @@ python -m http.server 8000
 
 - **nothing 文件检索** 0.9.11
 - **半拍 HalfBeat** 0.2.0
+- **半拍 HalfBeat 移动版** 0.2.0（Android arm64）
 - **诗词桌面壁纸** 0.2.0
 
 三个应用的效果预览都已换成真实运行截图（截图较大的用 WebP 存放）；封面是按各应用视觉风格生成的示意图，nothing 的封面按软件实际图标绘制。以后换图直接替换 `content/<slug>/01.*`、`02.*`，并同步更新 `data/apps.json` 里的 `previews` 路径。

@@ -106,6 +106,9 @@
       $('#previews').hidden = true;
       return;
     }
+    if (app.previewLayout === 'portrait') {
+      $('#app-previews').classList.add('portrait');
+    }
     $('#app-previews').innerHTML = previews
       .map(function (src, index) {
         return (

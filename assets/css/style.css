@@ -611,6 +611,23 @@ main {
   background: #0d0f13;
 }
 
+.gallery.portrait {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 340px));
+  justify-content: center;
+}
+
+.gallery.portrait button {
+  border-radius: 20px;
+}
+
+.gallery.portrait img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 /* 下载 */
 .download-grid {
   display: grid;
